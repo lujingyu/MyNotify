@@ -12,9 +12,9 @@ extern NSString *didReceiveLocalNotification;
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	
-	IBOutlet UITableView *table;
+	UITableView *table;
 }
-
+@property (nonatomic, retain) IBOutlet UITableView *table;
 
 - (IBAction)actionAdd:(id)sender;
 - (IBAction)actionDel:(id)sender;

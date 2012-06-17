@@ -15,6 +15,7 @@ NSString *didReceiveLocalNotification = @"didReceiveLocalNotification";
 @end
 
 @implementation ViewController
+@synthesize table;
 
 - (IBAction)actionAdd:(id)sender {
 	UILocalNotification *notification = [[UILocalNotification alloc] init];
@@ -52,6 +53,7 @@ NSString *didReceiveLocalNotification = @"didReceiveLocalNotification";
 
 - (void)dealloc {
 	[[NSNotificationCenter defaultCenter] removeObserver:self name:didReceiveLocalNotification object:nil];
+	[table release];
 	[super dealloc];
 }
 
@@ -59,6 +61,7 @@ NSString *didReceiveLocalNotification = @"didReceiveLocalNotification";
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+	self.table = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
