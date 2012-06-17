@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43D2D10158D7526006FA922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D0F158D7526006FA922 /* UIKit.framework */; };
+		F43D2D12158D7526006FA922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D11158D7526006FA922 /* Foundation.framework */; };
+		F43D2D14158D7526006FA922 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D13158D7526006FA922 /* CoreGraphics.framework */; };
+		F43D2D1A158D7526006FA922 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43D2D18158D7526006FA922 /* InfoPlist.strings */; };
+		F43D2D1C158D7526006FA922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D2D1B158D7526006FA922 /* main.m */; };
+		F43D2D20158D7526006FA922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D2D1F158D7526006FA922 /* AppDelegate.m */; };
+		F43D2D23158D7526006FA922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D2D22158D7526006FA922 /* ViewController.m */; };
+		F43D2D26158D7526006FA922 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43D2D24158D7526006FA922 /* ViewController.xib */; };
+		F43D2D2E158D7526006FA922 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D2D158D7526006FA922 /* SenTestingKit.framework */; };
+		F43D2D2F158D7526006FA922 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D0F158D7526006FA922 /* UIKit.framework */; };
+		F43D2D30158D7526006FA922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D2D11158D7526006FA922 /* Foundation.framework */; };
+		F43D2D38158D7526006FA922 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43D2D36158D7526006FA922 /* InfoPlist.strings */; };
+		F43D2D3B158D7526006FA922 /* MyNotifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D2D3A158D7526006FA922 /* MyNotifyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43D2D31158D7526006FA922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43D2D02158D7526006FA922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43D2D0A158D7526006FA922;
+			remoteInfo = MyNotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43D2D0B158D7526006FA922 /* MyNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43D2D0F158D7526006FA922 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F43D2D11158D7526006FA922 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F43D2D13158D7526006FA922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F43D2D17158D7526006FA922 /* MyNotify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNotify-Info.plist"; sourceTree = "<group>"; };
+		F43D2D19158D7526006FA922 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43D2D1B158D7526006FA922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F43D2D1D158D7526006FA922 /* MyNotify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNotify-Prefix.pch"; sourceTree = "<group>"; };
+		F43D2D1E158D7526006FA922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F43D2D1F158D7526006FA922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F43D2D21158D7526006FA922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F43D2D22158D7526006FA922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F43D2D25158D7526006FA922 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F43D2D2C158D7526006FA922 /* MyNotifyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotifyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43D2D2D158D7526006FA922 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F43D2D35158D7526006FA922 /* MyNotifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNotifyTests-Info.plist"; sourceTree = "<group>"; };
+		F43D2D37158D7526006FA922 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43D2D39158D7526006FA922 /* MyNotifyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNotifyTests.h; sourceTree = "<group>"; };
+		F43D2D3A158D7526006FA922 /* MyNotifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotifyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43D2D08158D7526006FA922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D10158D7526006FA922 /* UIKit.framework in Frameworks */,
+				F43D2D12158D7526006FA922 /* Foundation.framework in Frameworks */,
+				F43D2D14158D7526006FA922 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43D2D28158D7526006FA922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D2E158D7526006FA922 /* SenTestingKit.framework in Frameworks */,
+				F43D2D2F158D7526006FA922 /* UIKit.framework in Frameworks */,
+				F43D2D30158D7526006FA922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43D2D00158D7526006FA922 = {
+			isa = PBXGroup;
+			children = (
+				F43D2D15158D7526006FA922 /* MyNotify */,
+				F43D2D33158D7526006FA922 /* MyNotifyTests */,
+				F43D2D0E158D7526006FA922 /* Frameworks */,
+				F43D2D0C158D7526006FA922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43D2D0C158D7526006FA922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D0B158D7526006FA922 /* MyNotify.app */,
+				F43D2D2C158D7526006FA922 /* MyNotifyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43D2D0E158D7526006FA922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D0F158D7526006FA922 /* UIKit.framework */,
+				F43D2D11158D7526006FA922 /* Foundation.framework */,
+				F43D2D13158D7526006FA922 /* CoreGraphics.framework */,
+				F43D2D2D158D7526006FA922 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43D2D15158D7526006FA922 /* MyNotify */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D1E158D7526006FA922 /* AppDelegate.h */,
+				F43D2D1F158D7526006FA922 /* AppDelegate.m */,
+				F43D2D21158D7526006FA922 /* ViewController.h */,
+				F43D2D22158D7526006FA922 /* ViewController.m */,
+				F43D2D24158D7526006FA922 /* ViewController.xib */,
+				F43D2D16158D7526006FA922 /* Supporting Files */,
+			);
+			path = MyNotify;
+			sourceTree = "<group>";
+		};
+		F43D2D16158D7526006FA922 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D17158D7526006FA922 /* MyNotify-Info.plist */,
+				F43D2D18158D7526006FA922 /* InfoPlist.strings */,
+				F43D2D1B158D7526006FA922 /* main.m */,
+				F43D2D1D158D7526006FA922 /* MyNotify-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43D2D33158D7526006FA922 /* MyNotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D39158D7526006FA922 /* MyNotifyTests.h */,
+				F43D2D3A158D7526006FA922 /* MyNotifyTests.m */,
+				F43D2D34158D7526006FA922 /* Supporting Files */,
+			);
+			path = MyNotifyTests;
+			sourceTree = "<group>";
+		};
+		F43D2D34158D7526006FA922 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43D2D35158D7526006FA922 /* MyNotifyTests-Info.plist */,
+				F43D2D36158D7526006FA922 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43D2D0A158D7526006FA922 /* MyNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43D2D3E158D7526006FA922 /* Build configuration list for PBXNativeTarget "MyNotify" */;
+			buildPhases = (
+				F43D2D07158D7526006FA922 /* Sources */,
+				F43D2D08158D7526006FA922 /* Frameworks */,
+				F43D2D09158D7526006FA922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotify;
+			productName = MyNotify;
+			productReference = F43D2D0B158D7526006FA922 /* MyNotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43D2D2B158D7526006FA922 /* MyNotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43D2D41158D7526006FA922 /* Build configuration list for PBXNativeTarget "MyNotifyTests" */;
+			buildPhases = (
+				F43D2D27158D7526006FA922 /* Sources */,
+				F43D2D28158D7526006FA922 /* Frameworks */,
+				F43D2D29158D7526006FA922 /* Resources */,
+				F43D2D2A158D7526006FA922 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43D2D32158D7526006FA922 /* PBXTargetDependency */,
+			);
+			name = MyNotifyTests;
+			productName = MyNotifyTests;
+			productReference = F43D2D2C158D7526006FA922 /* MyNotifyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43D2D02158D7526006FA922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = lujingyu;
+			};
+			buildConfigurationList = F43D2D05158D7526006FA922 /* Build configuration list for PBXProject "MyNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F43D2D00158D7526006FA922;
+			productRefGroup = F43D2D0C158D7526006FA922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43D2D0A158D7526006FA922 /* MyNotify */,
+				F43D2D2B158D7526006FA922 /* MyNotifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43D2D09158D7526006FA922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D1A158D7526006FA922 /* InfoPlist.strings in Resources */,
+				F43D2D26158D7526006FA922 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43D2D29158D7526006FA922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D38158D7526006FA922 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F43D2D2A158D7526006FA922 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43D2D07158D7526006FA922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D1C158D7526006FA922 /* main.m in Sources */,
+				F43D2D20158D7526006FA922 /* AppDelegate.m in Sources */,
+				F43D2D23158D7526006FA922 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43D2D27158D7526006FA922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43D2D3B158D7526006FA922 /* MyNotifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43D2D32158D7526006FA922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43D2D0A158D7526006FA922 /* MyNotify */;
+			targetProxy = F43D2D31158D7526006FA922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F43D2D18158D7526006FA922 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43D2D19158D7526006FA922 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F43D2D24158D7526006FA922 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43D2D25158D7526006FA922 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F43D2D36158D7526006FA922 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43D2D37158D7526006FA922 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43D2D3C158D7526006FA922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F43D2D3D158D7526006FA922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F43D2D3F158D7526006FA922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNotify/MyNotify-Prefix.pch";
+				INFOPLIST_FILE = "MyNotify/MyNotify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F43D2D40158D7526006FA922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNotify/MyNotify-Prefix.pch";
+				INFOPLIST_FILE = "MyNotify/MyNotify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F43D2D42158D7526006FA922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNotify.app/MyNotify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNotify/MyNotify-Prefix.pch";
+				INFOPLIST_FILE = "MyNotifyTests/MyNotifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F43D2D43158D7526006FA922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNotify.app/MyNotify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyNotify/MyNotify-Prefix.pch";
+				INFOPLIST_FILE = "MyNotifyTests/MyNotifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43D2D05158D7526006FA922 /* Build configuration list for PBXProject "MyNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43D2D3C158D7526006FA922 /* Debug */,
+				F43D2D3D158D7526006FA922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43D2D3E158D7526006FA922 /* Build configuration list for PBXNativeTarget "MyNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43D2D3F158D7526006FA922 /* Debug */,
+				F43D2D40158D7526006FA922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43D2D41158D7526006FA922 /* Build configuration list for PBXNativeTarget "MyNotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43D2D42158D7526006FA922 /* Debug */,
+				F43D2D43158D7526006FA922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43D2D02158D7526006FA922 /* Project object */;
+}
