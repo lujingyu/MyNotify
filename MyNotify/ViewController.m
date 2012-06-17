@@ -33,7 +33,12 @@ NSString *didReceiveLocalNotification = @"didReceiveLocalNotification";
 }
 
 - (IBAction)actionDel:(id)sender {
-	
+	NSArray *notifications = [[UIApplication sharedApplication] scheduledLocalNotifications];
+	for (UILocalNotification *notification in notifications) {
+		if ([[notification.userInfo objectForKey:@"someKey"] isEqualToString:@""]) {
+			// TODO:
+		}
+	}
 }
 
 - (IBAction)actionLog:(id)sender {
